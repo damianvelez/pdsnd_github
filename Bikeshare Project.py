@@ -1,6 +1,6 @@
-#Udacity Project
+#Udacity project created to analyse data from three major cities
 import time
-import calendar
+import calendar #used to convert months from number to names for readability
 import pandas as pd
 import numpy as np
 
@@ -26,7 +26,7 @@ def get_filters(city, month, day):
             continue
         else:
             break
-
+#by converting to lower there is no need to worry about combinations of name with capital letters
     while True:
         filter = input("How would you like to filter the data? Month, Day, Both, or None?: \n").lower()
         if filter == 'month':
