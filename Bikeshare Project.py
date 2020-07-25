@@ -1,6 +1,6 @@
 #Udacity project created to analyse data from three major cities
 import time
-import calendar
+import calendar #used to convert months from number to names for readability
 import pandas as pd
 import numpy as np
 
