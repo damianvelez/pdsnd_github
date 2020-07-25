@@ -1,3 +1,4 @@
+#Udacity project created to analyse data from three major cities
 import time
 import calendar
 import pandas as pd
@@ -46,7 +47,7 @@ def get_filters(city, month, day):
             break
         else:
             input("Sorry, I didn't get that. Please make sure to type: Month, Day, All, or None")
-            break 
+            break
 
     print('-'*40)
     return city, month, day
