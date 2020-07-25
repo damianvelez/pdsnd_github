@@ -26,7 +26,7 @@ def get_filters(city, month, day):
             continue
         else:
             break
-
+#by converting to lower there is no need to worry about combinations of name with capital letters
     while True:
         filter = input("How would you like to filter the data? Month, Day, Both, or None?: \n").lower()
         if filter == 'month':
